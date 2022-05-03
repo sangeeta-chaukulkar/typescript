@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="expensePremium.css">
+    <title>Expense</title>
+</head>
+<body>
+    <div id="users">
+        <button type="submit" id="userList">List of users
+        </button>
+        <button onclick="download()" id="downloadexpense">Download Expenses</button>
+        <button  onclick="dailyexpenses()" id="dailyexpense">Daily Expenses</button>
+        <button onclick="weeklyexpenses()" id="weeklyexpense">Weekly Expenses</button>
+        <button onclick="getmonthlyexpenses()" id="monthlyexpense">Monthly Expenses</button>
+    </div>
+
+
+    <div id="expenseMain">
+        <h4>Day to Day Expenses</h4>
+        <p>Rows per page:</p>
+        <select name="ITEMS_PER_PAGE" id="itemsPerPage">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+          </select>
+
+        <div id="expenseList">
+          <table id="expenseTable">
+
+          </table>
+        </div>
+        <div id="expensePagination">
+                
+        </div>
+        <div id="backbtn"></div>
+    </div>
+
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"></script>
+  <script src="expensePremium.js"></script>
+</body>
+</html>

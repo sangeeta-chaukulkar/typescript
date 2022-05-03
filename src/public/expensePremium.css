@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica,sans-serif;
+    background-color: rgb(9, 141, 141);
+    background-size: auto;
+}
+
+  #expenseList {
+      border: 2px solid #6200ff;
+      border-radius: 2px;
+      top:5px;
+      padding: 20px;
+      width: 700px;
+      margin:2% auto 0;
+      text-align:center;
+      justify-content: center;
+      box-shadow:0 0 3px 0 rgba(0, 0, 0, 0.3);
+    }
+    #expenseMain, h4 {
+      text-align:center;
+      color:white;
+      margin:2% auto 0;
+    }
+  .all label {
+      font-family:verdana;
+      font-size:14px;
+      color:#0b0c00f1;
+      font-weight: bold;
+      text-align:center;
+  }
+  #para{
+      color:#750459;
+      font-weight: bold;
+  }
+  .all input[type=submit] {
+      background-color: #aa7604;
+      color: white;
+      padding: 6px 2px;
+      border: none;
+    }
+    input,select,select.option{
+    border-radius: 20px;
+    padding:12px;
+    margin: 14px;
+    width: 50%;
+    border:1px solid #999;
+    outline:none;
+    }
+    #itemsPerPage{
+      padding:1px;
+      margin:1px;
+      width:10%;
+      text-align:center;
+    }
+    #da{
+      height:60px;
+      width:120px;
+    }
+    #da1{
+      height:60px;
+      width:120px;
+    }
+    #submits{
+      height:50px;
+      width:120px;
+      
+    }
+    #userList,#downloadexpense,#dailyexpense,#weeklyexpense,#monthlyexpense{
+        margin:2px;
+        top:2px;
+        padding:14px;
+        width:120px;
+        height:60px;
+        background-color:#1717cb;
+        color:white;
+    }
+    #backbutton{
+      margin:4px;
+      padding:4px;
+      width:45px;
+      height:40px;
+      background-color:#1717cb;
+      color:white;
+     
+  }
+  .active{
+    background-color: #666;
+  color: white;
+  }
+  #backbuttondiv{
+    text-align: center;
+  }
+    #users{
+        margin:20px;
+        text-align:right;
+    }
+    #expenseTable  {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 95%;
+      text-align:center;
+    }
+    
+    #expenseTable td, #expenseTable th{
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    tr {
+      border-bottom: 1px solid #ddd;
+    }
+    #expenseTable tr:nth-child(even){background-color: #f2f2f2;}
+    
+    #expenseTable tr:hover {background-color: rgb(13, 72, 200);}
+    
+    #expenseTable th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #04AA6D;
+      color: white;
+    }
